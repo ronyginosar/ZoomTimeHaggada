@@ -3,6 +3,8 @@
     font-family: 'NarkisBlock', sans-serif;
     direction: rtl;
     width: 100%;
+    background: #f5f5f5;
+    color: #242424;
 }
 
 /* declaring global CSS variables */
@@ -49,6 +51,7 @@ body{
 
 b{
   font-family: 'NarkisBlockBold';
+  color: inherit;
 }
 
 blockquote {
@@ -57,9 +60,12 @@ blockquote {
  /* margin-left: 100px; */
  /* padding: 0; */
  /* color: #555; */
- color: #0077ff;
+ /* color: #0077ff; */
+ color: #197EFF;
  max-width: 700px;
 }
+
+/* #FF0DAF pink */
 
 footer{
   padding-top: 5%;
@@ -74,10 +80,12 @@ a{
 }
 
 .chaptertitle{
-  color: 000099;
+  color: #FFB701;
   font-size: 19pt;
+  /* font-family: 'NarkisBlockBold'; */
 }
 
 .ceremonyActions{
-  font-family: 'NarkisBlockBold';
+  /* font-family: 'NarkisBlockBold'; */
+  color: #FF6B0D;
 }
