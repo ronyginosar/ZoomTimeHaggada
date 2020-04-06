@@ -21,13 +21,13 @@
 /* font declerations */
 @font-face {
     font-family: 'NarkisBlock';
-    src: url('VC_NarkisBlock-Regular.otf');
+    src: url('fonts/VC_NarkisBlock-Regular.otf');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'NarkisBlockBold';
-    src: url('VC_NarkisBlock-Bold.otf');
+    src: url('fonts/VC_NarkisBlock-Bold.otf');
     font-weight: bold;
 }
 
