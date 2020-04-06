@@ -9,13 +9,7 @@
 
 /* declaring global CSS variables */
 :root {
-  /* --element-color:  #f7f6f4;
-  --bg-color: #191919; */
-  /* --element-color: #232323;
-  --bg-color: #f7f6f4; */
   --page-margins: 7.5%;
-  /* --header-margins: 5%;
-  --toolbox-margin: 42%; */
 }
 
 /* font declerations */
@@ -32,19 +26,10 @@
 }
 
 body{
-  /* margin: 0; */
-  /* background-color: var(--bg-color); */
-  /* overflow: hidden; */
-  /* height: 0; */
-  /* height: 100%; */
   width: 100%;
   font-size: 13pt;
   position: absolute;
-  /* top: 30%; */
-  /* right: 10%; */
   padding: var(--page-margins);
-  /* margin: var(--page-margins); ????? */
-  /* overflow: scroll; */
   overflow-x: hidden;
   margin: auto;
 }
@@ -59,12 +44,8 @@ b{
 }
 
 blockquote {
-  /*  TODO left side */
+  /*  TODO left side? */
  margin-right: 6%;
- /* margin-left: 100px; */
- /* padding: 0; */
- /* color: #555; */
- /* color: #0077ff; */
  color: #197EFF;
  max-width: 700px;
 }
@@ -74,31 +55,25 @@ blockquote {
 .chaptertitle{
   color: #FFB701;
   font-size: 19pt;
-  /* font-family: 'NarkisBlockBold'; */
 }
 
 .ceremonyActions{
-  /* font-family: 'NarkisBlockBold'; */
   color: #FF6B0D;
 }
 
 header{
-  /* background: red; */
-  height: 15px;
+  /* height: 15px; */
   width:100%;
   padding: 0;
 }
 
 nav{
-  /* background: pink; */
-  /* height: 15px; */
   font-size: 10pt;
   width:100%;
   padding: 0;
   padding-bottom: 3%;
   text-align: center;
   color: gray;
-  /* font-family: 'NarkisBlockBold'; */
 }
 
 footer{
