@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: 'NarkisBlock', sans-serif;
+    direction: rtl;
+    width: 100%;
+}
+
+/* declaring global CSS variables */
+:root {
+  /* --element-color:  #f7f6f4;
+  --bg-color: #191919; */
+  /* --element-color: #232323;
+  --bg-color: #f7f6f4; */
+  --page-margins: 7.5%;
+  /* --header-margins: 5%;
+  --toolbox-margin: 42%; */
+}
+
+/* font declerations */
+@font-face {
+    font-family: 'NarkisBlock';
+    src: url('VC_NarkisBlock-Regular.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'NarkisBlockBold';
+    src: url('VC_NarkisBlock-Bold.otf');
+    font-weight: bold;
+}
+
+body{
+  /* margin: 0; */
+  /* background-color: var(--bg-color); */
+  /* overflow: hidden; */
+  /* height: 0; */
+  /* height: 100%; */
+  font-size: 13pt;
+  position: absolute;
+  /* top: 30%; */
+  /* right: 10%; */
+  padding: var(--page-margins);
+  /* margin: var(--page-margins); ????? */
+  /* overflow: scroll; */
+  overflow-x: hidden;
+  margin: auto;
+  max-width: 900px;
+}
+
+b{
+  font-family: 'NarkisBlockBold';
+}
+
+blockquote {
+  /*  TODO left side */
+ margin-right: 6%;
+ /* margin-left: 100px; */
+ /* padding: 0; */
+ /* color: #555; */
+ color: #0077ff;
+ max-width: 700px;
+}
+
+footer{
+  font-size: 9pt;
+  color: gray;
+}
+
+.chaptertitle{
+  color: 000099;
+  font-size: 19pt;
+}
+
+.ceremonyActions{
+  font-family: 'NarkisBlockBold';
+}
