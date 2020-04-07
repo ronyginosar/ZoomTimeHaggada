@@ -5,8 +5,8 @@
     /* width: 100%; */
     background: #f5f5f5;
     color: #242424;
-    font-feature-settings:"kern" 1;
-    font-kerning: normal;
+    /* font-feature-settings:"kern" 1;
+    font-kerning: normal; */
 }
 
 /* declaring global CSS variables */
