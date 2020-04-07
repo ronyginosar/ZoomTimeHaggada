@@ -18,13 +18,13 @@
 @font-face {
     font-family: 'NarkisBlock';
     /* src: url('VC_NarkisBlock-Regular.otf'); */
-    src: url('https://cors-anywhere.herokuapp.com/https://github.com/ronyginosar/ZoomTimeHaggada/blob/master/VC_NarkisBlock-Regular.otf');
+    src: url('https://cors-anywhere.herokuapp.com/https://github.com/ronyginosar/FontsPrivate/blob/master/VC_NarkisBlock-Regular.otf');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'NarkisBlockBold';
-    src: url('https://cors-anywhere.herokuapp.com/https://github.com/ronyginosar/ZoomTimeHaggada/blob/master/VC_NarkisBlock-Bold.otf');
+    src: url('https://cors-anywhere.herokuapp.com/https://github.com/ronyginosar/FontsPrivate/blob/master/VC_NarkisBlock-Bold.otf');
     /* src: url('VC_NarkisBlock-Bold.otf'); */
     font-weight: bold;
 }
