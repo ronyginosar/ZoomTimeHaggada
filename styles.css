@@ -40,6 +40,7 @@ body{
   max-width: 800px;
   font-size: var(--textsize);
   /* font-size: 10px; */
+  counter-reset: line;
 }
 
 b{
@@ -101,13 +102,12 @@ footer>a{
   position: fixed;
   left: 10px;
   top: 10px;
-
 }
 
 input{
      width:100%;
      display:inline;
-   }
+}
 
 .controllers>input{
   font-family: sans-serif;
@@ -121,4 +121,18 @@ input{
 
 .controllers>input:focus{
   outline: none;
+}
+
+/* paragraph numbers */
+.content .newpar{
+    display: block;
+}
+
+.content .newpar:before{
+    counter-increment: line;
+    content: counter(line);
+    display: inline-block;
+    font-size: 13pt;
+    margin-left: .5em;
+    -webkit-user-select: none;
 }
