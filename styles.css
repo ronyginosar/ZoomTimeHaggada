@@ -76,6 +76,11 @@ nav{
   color: gray;
 }
 
+nav>a{
+  color: gray;
+  text-decoration: none;
+}
+
 footer{
   padding-top: 5%;
   text-align: center;
