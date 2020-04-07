@@ -39,7 +39,7 @@ body{
 .content{
   max-width: 800px;
   font-size: var(--textsize);
-  padding-top: 5%;
+  /* padding-top: 5%; */
   counter-reset: line;
 }
 
@@ -73,17 +73,11 @@ header{
 
 nav{
   font-size: var(--notessize);
-  /* background: red; */
-  padding-top: 0.5%;
-  padding-bottom: 1%;
   text-align: center;
   color: gray;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top:3%;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 17%;
+  padding-right: 17%;
+  width:100%;
 }
 
 nav>a{
@@ -96,7 +90,6 @@ footer{
   text-align: center;
   font-size: var(--notessize);
   color: gray;
-  /* TODO vertically on the left? */
 }
 
 footer>a{
@@ -106,7 +99,7 @@ footer>a{
 .controllers{
   position: fixed;
   left: 5%;
-  top: 10%;
+  top: 20%;
   background-color: transparent;
   /* background-color: blue; */
 }
