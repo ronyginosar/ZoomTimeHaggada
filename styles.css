@@ -2,7 +2,6 @@
     box-sizing: border-box;
     font-family: 'NarkisBlock', sans-serif;
     direction: rtl;
-    /* width: 100%; */
     background: #f5f5f5;
     color: #242424;
     /* font-feature-settings:"kern" 1;
@@ -12,26 +11,26 @@
 /* declaring global CSS variables */
 :root {
   --page-margins: 7.5%;
+  --textsize: 2.7vw;
+  --notessize: 1.5vw;
 }
 
 /* font declerations */
 @font-face {
     font-family: 'NarkisBlock';
     src: url('VC_NarkisBlock-Regular.otf');
-    /* src: url('https://github.com/ronyginosar/FontsPrivate/blob/master/VC_NarkisBlock-Regular.otf'); */
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'NarkisBlockBold';
-    /* src: url('https://github.com/ronyginosar/FontsPrivate/blob/master/VC_NarkisBlock-Bold.otf'); */
     src: url('VC_NarkisBlock-Bold.otf');
     font-weight: bold;
 }
 
 body{
   width: 100%;
-  font-size: 13pt;
+
   position: absolute;
   padding: var(--page-margins);
   overflow-x: hidden;
@@ -40,6 +39,8 @@ body{
 
 .content{
   max-width: 800px;
+  font-size: var(--textsize);
+  /* font-size: 10px; */
 }
 
 b{
@@ -58,7 +59,7 @@ blockquote {
 
 .chaptertitle{
   color: #FFB701;
-  font-size: 19pt;
+  font-size: 5vw;
 }
 
 .ceremonyActions{
@@ -66,15 +67,15 @@ blockquote {
 }
 
 header{
-  /* height: 15px; */
   width:100%;
   padding: 0;
 }
 
 nav{
-  font-size: 10pt;
+  font-size: 1.6vw;
   width:100%;
   padding: 0;
+  padding-top: 3%;
   padding-bottom: 3%;
   text-align: center;
   color: gray;
@@ -88,11 +89,28 @@ nav>a{
 footer{
   padding-top: 5%;
   text-align: center;
-  font-size: 9pt;
+  font-size: 1.2vw;
   color: gray;
   /* TODO vertically on the left? */
 }
 
 footer>a{
   color: gray;
+}
+
+.controllers{
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
+
+.controllers>button{
+  font-family: sans-serif;
+  color: gray;
+  font-size: var(--textsize);
+  margin-right: 0.7vw;
+}
+
+.controllers>button:focus{
+  outline: none;
 }
