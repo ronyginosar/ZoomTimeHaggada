@@ -848,7 +848,7 @@ XXX. font size control
         var originalFontNumber = parseFloat(originalFontSize, 10);
         originalFontNumber *= 100/($(window).width()); //convert to vw
         var newFontSize = originalFontNumber - 0.3;
-        console.log("text ", newFontSize);
+        // console.log("text ", newFontSize);
         $('.content').css('font-size', newFontSize+'vw');
         return false;
       });
@@ -871,11 +871,19 @@ XXX. font size control
         var originalFontNumber = parseFloat(originalFontSize, 10);
         originalFontNumber *= 100/($(window).width()); //convert to vw
         var newFontSize = originalFontNumber - 0.6;
-        console.log("title ", newFontSize);
+        // console.log("title ", newFontSize);
         $('.chaptertitle').css('font-size', newFontSize+'vw');
         return false;
       });
 
+  });
+
+  $("*").each( function () {
+      var $this = $(this);
+      if (parseInt($this.css("fontSize")) < 10) {
+        console.log($this.css("fontSize"));
+        $this.css({ "font-size": "12px" });
+      }
   });
   </script>
 
