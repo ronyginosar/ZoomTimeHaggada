@@ -12,7 +12,7 @@
 :root {
   --page-margins: 7.5%;
   --textsize: 3vw;
-  --notessize: 1.5vw;
+  --notessize: 1.6vw;
 }
 
 /* font declerations */
@@ -72,7 +72,7 @@ header{
 }
 
 nav{
-  font-size: 1.6vw;
+  font-size: var(--notessize);
   width:100%;
   padding: 0;
   padding-top: 3%;
@@ -89,7 +89,7 @@ nav>a{
 footer{
   padding-top: 5%;
   text-align: center;
-  font-size: 1.2vw;
+  font-size: var(--notessize);
   color: gray;
   /* TODO vertically on the left? */
 }
