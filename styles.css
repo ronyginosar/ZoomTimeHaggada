@@ -39,7 +39,7 @@ body{
 .content{
   max-width: 800px;
   font-size: var(--textsize);
-  /* font-size: 10px; */
+  padding-top: 5%;
   counter-reset: line;
 }
 
@@ -73,12 +73,17 @@ header{
 
 nav{
   font-size: var(--notessize);
-  width:100%;
-  padding: 0;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  /* background: red; */
+  padding-top: 0.5%;
+  padding-bottom: 1%;
   text-align: center;
   color: gray;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:3%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 nav>a{
@@ -100,9 +105,10 @@ footer>a{
 
 .controllers{
   position: fixed;
-  left: 10px;
-  top: 10px;
+  left: 5%;
+  top: 10%;
   background-color: transparent;
+  /* background-color: blue; */
 }
 
 input{
@@ -130,12 +136,12 @@ input{
     display: inline;
 }
 
-br{
+/* br{
   counter-increment: line;
-}
+} */
 
 .content .newpar:before{
-    /* counter-increment: line; */
+    counter-increment: line;
     content: counter(line);
     display: inline;
     /* font-size: var(--textsize); */
