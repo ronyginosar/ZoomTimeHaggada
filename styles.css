@@ -5,6 +5,8 @@
     /* width: 100%; */
     background: #f5f5f5;
     color: #242424;
+    font-feature-settings:"kern" 1;
+    font-kerning: normal;
 }
 
 /* declaring global CSS variables */
@@ -15,13 +17,15 @@
 /* font declerations */
 @font-face {
     font-family: 'NarkisBlock';
-    src: url('VC_NarkisBlock-Regular.otf');
+    /* src: url('VC_NarkisBlock-Regular.otf'); */
+    src: url('https://github.com/ronyginosar/ZoomTimeHaggada/blob/master/VC_NarkisBlock-Regular.otf');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'NarkisBlockBold';
-    src: url('VC_NarkisBlock-Bold.otf');
+    src: url('https://github.com/ronyginosar/ZoomTimeHaggada/blob/master/VC_NarkisBlock-Bold.otf');
+    /* src: url('VC_NarkisBlock-Bold.otf'); */
     font-weight: bold;
 }
 
