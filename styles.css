@@ -12,7 +12,7 @@
 :root {
   --page-margins: 7.5%;
   --textsize: 3vw;
-  --notessize: 1.6vw;
+  --notessize: 2vw;
 }
 
 /* font declerations */
@@ -49,7 +49,6 @@ b{
 }
 
 blockquote {
-  /*  TODO left side? */
  margin-right: 6%;
  color: #197EFF;
  max-width: 700px;
@@ -83,6 +82,7 @@ nav{
 nav>a{
   color: gray;
   text-decoration: none;
+  font-size: var(--notessize);
 }
 
 footer{
@@ -139,7 +139,9 @@ input{
     display: inline;
     /* font-size: var(--textsize); */
     font-size: inherit;
-    margin-left: .5em;
-    margin-right: -1em;
+    /* margin-left: 0.5em;
+    margin-right: -1.5em; */
+    margin-left: 1ex;
+    margin-right: -2.6ex;
     -webkit-user-select: none;
 }
