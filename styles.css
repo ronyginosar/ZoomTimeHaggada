@@ -103,6 +103,11 @@ footer>a{
   top: 10px;
 }
 
+input{
+     width:100%;
+     display:inline;
+   }
+
 .controllers>input{
   font-family: sans-serif;
   width: 3vw;
