@@ -11,7 +11,7 @@
 /* declaring global CSS variables */
 :root {
   --page-margins: 7.5%;
-  --textsize: 2.7vw;
+  --textsize: 2.1vw;
   --notessize: 1.5vw;
 }
 
@@ -30,7 +30,6 @@
 
 body{
   width: 100%;
-
   position: absolute;
   padding: var(--page-margins);
   overflow-x: hidden;
@@ -59,7 +58,7 @@ blockquote {
 
 .chaptertitle{
   color: #FFB701;
-  font-size: 5vw;
+  font-size: 4.5vw;
 }
 
 .ceremonyActions{
