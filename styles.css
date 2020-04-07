@@ -138,7 +138,9 @@ br{
     /* counter-increment: line; */
     content: counter(line);
     display: inline;
-    font-size: var(--textsize);
+    /* font-size: var(--textsize); */
+    font-size: inherit;
+
     margin-left: .5em;
     -webkit-user-select: none;
 }
