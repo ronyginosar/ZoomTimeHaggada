@@ -101,6 +101,7 @@ footer>a{
   position: fixed;
   left: 10px;
   top: 10px;
+
 }
 
 input{
@@ -110,7 +111,7 @@ input{
 
 .controllers>input{
   font-family: sans-serif;
-  width: 3vw;
+  width: 4vw;
   /* width: 40px; */
   max-width: 50px;
   color: gray;
