@@ -106,8 +106,8 @@ footer>a{
 .controllers>input{
   font-family: sans-serif;
   width: 3vw;
-  width: 40px;
-  max-width: 40px;
+  /* width: 40px; */
+  max-width: 50px;
   color: gray;
   font-size: var(--textsize);
   margin-right: 0;
