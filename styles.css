@@ -130,8 +130,12 @@ input{
     display: block;
 }
 
+br{
+  counter-increment: line;
+}
+
 .content .newpar:before{
-    counter-increment: line;
+    /* counter-increment: line; */
     content: counter(line);
     display: inline-block;
     font-size: var(--textsize);
