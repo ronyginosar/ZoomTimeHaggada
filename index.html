@@ -7,6 +7,7 @@ XXX. font size control
 6. numbering - by "page" or by "row/paragraph"
 7. hide font files!
 8. keep bookmarks on top?
+9. icons
  -->
 
 <!DOCTYPE html>
@@ -21,8 +22,9 @@ XXX. font size control
   </head>
   <body>
     <div class="controllers">
-      <button id="increaseFont">+</button>
-      <button id="decreaseFont">–</button>
+      <input type="image" id="decreaseFont" src="icon-02.png"></input>
+      <input type="image" id="increaseFont" src="icon-01.png"></input>
+
     </div>
   <header>
 
@@ -882,7 +884,7 @@ XXX. font size control
   $("*").each( function () {
       var $this = $(this);
       if (parseInt($this.css("fontSize")) < 10) {
-        console.log($this.css("fontSize"));
+        // console.log($this.css("fontSize"));
         $this.css({ "font-size": "12px" });
       }
   });

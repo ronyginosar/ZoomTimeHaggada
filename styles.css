@@ -103,13 +103,14 @@ footer>a{
   top: 10px;
 }
 
-.controllers>button{
+.controllers>input{
   font-family: sans-serif;
+  width: 3vw;
   color: gray;
   font-size: var(--textsize);
-  margin-right: 0.7vw;
+  margin-right: 0;
 }
 
-.controllers>button:focus{
+.controllers>input:focus{
   outline: none;
 }
