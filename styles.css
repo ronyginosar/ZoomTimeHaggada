@@ -127,7 +127,7 @@ input{
 
 /* paragraph numbers */
 .content .newpar{
-    display: block;
+    display: inline;
 }
 
 br{
@@ -137,7 +137,7 @@ br{
 .content .newpar:before{
     /* counter-increment: line; */
     content: counter(line);
-    display: inline-block;
+    display: inline;
     font-size: var(--textsize);
     margin-left: .5em;
     -webkit-user-select: none;
