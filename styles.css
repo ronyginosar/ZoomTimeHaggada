@@ -146,7 +146,7 @@ input{
     display: inline;
     /* font-size: var(--textsize); */
     font-size: inherit;
-
     margin-left: .5em;
+    margin-right: -1em;
     -webkit-user-select: none;
 }
